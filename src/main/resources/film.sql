@@ -1,4 +1,5 @@
-INSERT INTO film (
+-- Inception
+INSERT IGNORE INTO film (
     title, year, rated, released, runtime, genre, director, writer, actors,
     plot, plotDK, poster, metascore, imdb_rating, imdb_votes, imdbid, website, response, is_ongoing
 )
@@ -11,9 +12,11 @@ VALUES
         'En tyv, der stjæler forretningshemmeligheder gennem brugen af ​​drømme-delingsteknologi, får den omvendte opgave at plante en idé i sindet på en direktør.',
         'https://m.media-amazon.com/images/M/MV5BMTM2NTI5OTQ3OV5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg',
         '74', '8.8', '2,000,000', 'tt1375666',
-        'https://www.imdb.com/title/tt1375666/', 'True', false
+        'https://www.imdb.com/title/tt1375666/', 'True', 0
     );
-INSERT INTO film (
+
+-- The Matrix
+INSERT IGNORE INTO film (
     title, year, rated, released, runtime, genre, director, writer, actors,
     plot, plotDK, poster, metascore, imdb_rating, imdb_votes, imdbid, website, response, is_ongoing
 )
@@ -26,9 +29,11 @@ VALUES
         'En computerhacker lærer af mystiske oprørere om den sande natur af hans virkelighed og hans rolle i krigen mod dets kontrollører.',
         'https://m.media-amazon.com/images/M/MV5BNzQzOTk3NzAtNjYwMC00ZDI4LWE0ZTUtOTNlZGFmNjdmZWRlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg',
         '73', '8.7', '1,700,000', 'tt0133093',
-        'https://www.imdb.com/title/tt0133093/', 'True', false
+        'https://www.imdb.com/title/tt0133093/', 'True', 0
     );
-INSERT INTO film (
+
+-- The Dark Knight
+INSERT IGNORE INTO film (
     title, year, rated, released, runtime, genre, director, writer, actors,
     plot, plotDK, poster, metascore, imdb_rating, imdb_votes, imdbid, website, response, is_ongoing
 )
@@ -41,9 +46,11 @@ VALUES
         'Når truslen kendt som Jokeren dukker op fra sin mystiske fortid, forårsager han kaos og uorden blandt befolkningen i Gotham.',
         'https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg',
         '84', '9.0', '2,400,000', 'tt0468569',
-        'https://www.imdb.com/title/tt0468569/', 'True', false
+        'https://www.imdb.com/title/tt0468569/', 'True', 0
     );
-INSERT INTO film (
+
+-- The Godfather
+INSERT IGNORE INTO film (
     title, year, rated, released, runtime, genre, director, writer, actors,
     plot, plotDK, poster, metascore, imdb_rating, imdb_votes, imdbid, website, response, is_ongoing
 )
@@ -56,5 +63,5 @@ VALUES
         'Den aldrende patriark af en organiseret forbrydelsesdynasti overdrager kontrollen med sit hemmelige imperium til sin modvillige søn.',
         'https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmYtYTAwMC00ZjQ5LWEzNjktYTc0ZGMzNWE2YzBiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg',
         '100', '9.2', '1,700,000', 'tt0068646',
-        'https://www.imdb.com/title/tt0068646/', 'True', false
+        'https://www.imdb.com/title/tt0068646/', 'True', 0
     );
